@@ -1,5 +1,5 @@
 
-#funcion del ejercicio 1 
+#funcion del ejercicio 1
 def vocales_in_zen (zen_text):
     lines=zen_text.splitlines("\n") #divido el texto en lineas, se genera una lista
     vocales="AEIOUaeiou"
@@ -9,3 +9,11 @@ def vocales_in_zen (zen_text):
             print (line)
 
 
+#funcion del ejercicio 2 
+def titulo_mas_largo (titles):
+    max=0 #variable contador en cero
+    for title in titles:
+        if len(title)>max:
+            max=len(title) #actualizo el contador con el nuevo max
+            max_title=title #actualizo el titulo mas largo
+    return max_title #devuelvo el titulo mas largo
