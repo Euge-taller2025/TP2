@@ -19,5 +19,9 @@ def simulacion_partidas (rounds):
 
         MVP = calc_mvp (result_round)
         tabla_jugadores [MVP]['MVP'] +=1
+        print (f'Ranking ronda {nro_round}: \n')
+        imprimir_results(tabla_jugadores)
+        print ()
 
+    print ('Ranking final: \n')
     imprimir_results(tabla_jugadores)
