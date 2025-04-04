@@ -1,4 +1,7 @@
-import calc_points, actualizar_tabla, calc_mvp, imprimir_results
+from calc_points import calc_points 
+from actualizar_tabla import actualizar_tabla
+from calc_mvp import calc_MVP
+from imprimir_results import imprimir_results
 
 
 def simulacion_partidas (rounds):
