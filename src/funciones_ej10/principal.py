@@ -1,7 +1,7 @@
-from calc_points import calc_points 
-from actualizar_tabla import actualizar_tabla
-from calc_mvp import calc_MVP
-from imprimir_results import imprimir_results
+from funciones_ej10.calc_points import calc_points 
+from funciones_ej10.actualizar_tabla import actualizar_tabla
+from funciones_ej10.calc_mvp import calc_mvp
+from funciones_ej10.imprimir_results import imprimir_results
 
 
 def simulacion_partidas (rounds):
