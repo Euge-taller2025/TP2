@@ -30,4 +30,4 @@ def cleaner (clients):
             name_cleaned= conv_title (name_cleaned)
             cleaned_list.append (name_cleaned)
     cleaned_list=delete_dupl(cleaned_list)
-    return cleaned_list
+    return sorted(cleaned_list,key=None) #devuelvo la lista limpia y ordenada
