@@ -1,4 +1,4 @@
-import calc_points, actualizar_tabla, calc_mvp
+import calc_points, actualizar_tabla, calc_mvp, imprimir_results
 
 
 def simulacion_partidas (rounds):
@@ -15,3 +15,6 @@ def simulacion_partidas (rounds):
             actualizar_tabla (jugador, kills, assists, deaths, points, tabla_jugadores)
 
         MVP = calc_mvp (result_round)
+        tabla_jugadores [MVP]['MVP'] +=1
+
+    imprimir_results(tabla_jugadores)
