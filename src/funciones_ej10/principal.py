@@ -1,4 +1,4 @@
-import calc_points
+import calc_points, actualizar_tabla
 
 
 def simulacion_partidas (rounds):
@@ -12,4 +12,5 @@ def simulacion_partidas (rounds):
             deaths= stats ['deaths']
             points=calc_points (kills, assists, deaths)
             result_round[jugador] = points
+            actualizar_tabla (jugador, kills, assists, deaths, points, tabla_jugadores)
     
